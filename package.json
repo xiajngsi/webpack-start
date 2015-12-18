@@ -1,0 +1,24 @@
+{
+  "name": "webpack-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "html-webpack-plugin": "^1.7.0",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "jquery-touchswipe": "^1.6.12",
+    "react": "^0.14.3",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
